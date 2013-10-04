@@ -28,7 +28,7 @@ RailsAdmin.config do |config|
 
   # Exclude specific models (keep the others):
   # config.excluded_models = ['Admin', 'Course', 'User']
-  config.excluded_models = ['MejorandolaApi', 'MejorandolaAPI::Courses', 'MejorandolaAPI::Status']
+  config.excluded_models = ['MejorandolaApi', 'Helpers::ApiHelpers','MejorandolaAPI::Courses', 'MejorandolaAPI::Status']
 
   # Include specific models (exclude the others):
   # config.included_models = ['Admin', 'Course', 'User']
