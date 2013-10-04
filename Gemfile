@@ -38,6 +38,7 @@ gem 'devise'
 gem 'rails_admin'
 gem 'grape'
 gem 'rack-cors', '0.2.8', :require => 'rack/cors'
+gem 'rails_12factor'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
