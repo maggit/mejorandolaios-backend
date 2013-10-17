@@ -7,7 +7,7 @@ module MejorandolaAPI
       end
 
       get :all do
-        @courses = Course.all(:order => "id desc")
+        @courses = Course.all(:order => "id ASC")
         @response.notice("Success.", @courses.as_json(:except => [:created_at, :updated_at]))
       end
 
