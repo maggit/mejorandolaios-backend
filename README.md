@@ -6,8 +6,11 @@ Backend of one of the demos presented at iOS Development course by [Mejorando.la
 
 - Ruby 2.0
 - mysql running locally
+
+```
 $ sudo apt-get install mysql-server
 $ sudo apt-get install libmysqlclient-dev
+```
 
 ## Running on Ubuntu using Vagrant
 Install RVM https://rvm.io/rvm/install
