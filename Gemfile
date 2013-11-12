@@ -5,9 +5,11 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.0'
 gem 'unicorn'
 
-gem 'pg', group: :production
+#Heroku uses pg, uncomment if you want to deploy to heroku
+#gem 'pg', group: :production
 gem 'mysql2', group: :development
 
+gem "therubyracer", :require => 'v8'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
